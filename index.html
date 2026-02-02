@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microsoft Ads Redesign | Design System</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="/" class="nav__logo">Microsoft Ads</a>
+      <ul class="nav__links">
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#design-system" class="nav__link">Design System</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+      <a href="#get-started" class="btn btn-primary">Get Started</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="grid">
+        <div class="col-8 col-md-12">
+          <p class="overline mb-4" style="color: var(--color-gold-400);">Design System</p>
+          <h1 class="hero__title animate-fade-in">
+            Reimagining<br>Digital Advertising
+          </h1>
+          <p class="hero__subtitle animate-fade-in" style="animation-delay: 0.2s;">
+            A modern design system inspired by Microsoft.ai, built for the future of advertising experiences.
+          </p>
+          <div class="flex gap-4 animate-fade-in" style="animation-delay: 0.4s;">
+            <a href="#features" class="btn btn-primary">Explore Features</a>
+            <a href="#design-system" class="btn btn-ghost" style="color: var(--color-cream-200); border: 1px solid var(--color-charcoal-600);">View System</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="section">
+    <div class="container">
+      <header class="section__header text-center mx-auto" style="max-width: 700px;">
+        <p class="overline text-sage mb-3">Features</p>
+        <h2 class="section__title h2">Built for Modern Experiences</h2>
+        <p class="section__subtitle mx-auto">Powerful tools and components designed to create stunning advertising experiences.</p>
+      </header>
+      
+      <div class="grid" style="--columns: 3;">
+        <article class="card">
+          <div class="mb-4" style="width: 48px; height: 48px; background: var(--gradient-sage); border-radius: 12px;"></div>
+          <h3 class="h5 mb-3">Responsive Grid</h3>
+          <p class="text-secondary">A flexible 12-column grid system that adapts seamlessly across all device sizes.</p>
+        </article>
+        
+        <article class="card">
+          <div class="mb-4" style="width: 48px; height: 48px; background: var(--gradient-gold); border-radius: 12px;"></div>
+          <h3 class="h5 mb-3">Typography Scale</h3>
+          <p class="text-secondary">Carefully crafted type hierarchy using Segoe UI and Red Hat Mono.</p>
+        </article>
+        
+        <article class="card">
+          <div class="mb-4" style="width: 48px; height: 48px; background: var(--gradient-warm); border-radius: 12px;"></div>
+          <h3 class="h5 mb-3">Color System</h3>
+          <p class="text-secondary">Harmonious palette featuring Charcoal, Cream, Sage, and Gold tones.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Design System Section -->
+  <section id="design-system" class="section bg-cream">
+    <div class="container">
+      <header class="section__header">
+        <p class="overline text-gold mb-3">Design System</p>
+        <h2 class="section__title h2">Color Palette</h2>
+        <p class="section__subtitle">A sophisticated palette inspired by natural elements.</p>
+      </header>
+      
+      <div class="grid" style="--columns: 4;">
+        <!-- Charcoal -->
+        <div class="card p-0" style="overflow: hidden;">
+          <div style="height: 120px; background: var(--color-charcoal-900);"></div>
+          <div class="p-4">
+            <p class="label mb-2">Charcoal</p>
+            <p class="mono text-sm text-secondary">#171717</p>
+          </div>
+        </div>
+        
+        <!-- Cream -->
+        <div class="card p-0" style="overflow: hidden;">
+          <div style="height: 120px; background: var(--color-cream-200);"></div>
+          <div class="p-4">
+            <p class="label mb-2">Cream</p>
+            <p class="mono text-sm text-secondary">#FAF9F7</p>
+          </div>
+        </div>
+        
+        <!-- Sage -->
+        <div class="card p-0" style="overflow: hidden;">
+          <div style="height: 120px; background: var(--color-sage-500);"></div>
+          <div class="p-4">
+            <p class="label mb-2">Sage</p>
+            <p class="mono text-sm text-secondary">#5CB894</p>
+          </div>
+        </div>
+        
+        <!-- Gold -->
+        <div class="card p-0" style="overflow: hidden;">
+          <div style="height: 120px; background: var(--color-gold-400);"></div>
+          <div class="p-4">
+            <p class="label mb-2">Gold</p>
+            <p class="mono text-sm text-secondary">#D4BC4A</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section bg-charcoal text-inverse py-10">
+    <div class="container text-center">
+      <h2 class="h2 mb-4">Ready to Get Started?</h2>
+      <p class="lead mb-8" style="color: var(--color-charcoal-400); max-width: 500px; margin-left: auto; margin-right: auto;">
+        Transform your advertising experiences with our modern design system.
+      </p>
+      <a href="#" class="btn btn-primary" style="background: var(--color-gold-400); color: var(--color-charcoal-900);">
+        Start Building
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <h4 class="footer__title">Product</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Features</a></li>
+            <li><a href="#" class="footer__link">Pricing</a></li>
+            <li><a href="#" class="footer__link">Documentation</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Company</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">About</a></li>
+            <li><a href="#" class="footer__link">Blog</a></li>
+            <li><a href="#" class="footer__link">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Design System</a></li>
+            <li><a href="#" class="footer__link">Components</a></li>
+            <li><a href="#" class="footer__link">Templates</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__title">Legal</h4>
+          <ul class="footer__links">
+            <li><a href="#" class="footer__link">Privacy</a></li>
+            <li><a href="#" class="footer__link">Terms</a></li>
+            <li><a href="#" class="footer__link">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Microsoft Ads Redesign. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
